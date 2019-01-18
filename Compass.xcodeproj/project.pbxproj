@@ -17,6 +17,10 @@
 		058A68B521EE0B1D0021E3C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058A68B321EE0B1D0021E3C9 /* LaunchScreen.storyboard */; };
 		058A68C021EE0B1D0021E3C9 /* CompassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058A68BF21EE0B1D0021E3C9 /* CompassTests.swift */; };
 		058A68CB21EE0B1D0021E3C9 /* CompassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058A68CA21EE0B1D0021E3C9 /* CompassUITests.swift */; };
+		05BABA2921F2317800D9159A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05BABA2821F2317800D9159A /* GoogleService-Info.plist */; };
+		407F8899E17A2AB1C1AF5DD6 /* Pods_CompassTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931DC62F5DEA326024C4CED0 /* Pods_CompassTests.framework */; };
+		B25EA681EC479A4150E0264F /* Pods_CompassUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 688260CD03C5BFE76CB02433 /* Pods_CompassUITests.framework */; };
+		EBCE6F6A06AF4DDCB89BEE95 /* Pods_Compass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63867551AF82F2D6F265AE7E /* Pods_Compass.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01B16DDC561911F2C6A7C7C7 /* Pods-CompassUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompassUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CompassUITests/Pods-CompassUITests.release.xcconfig"; sourceTree = "<group>"; };
 		058A68A121EE0B1C0021E3C9 /* Compass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Compass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		058A68A421EE0B1C0021E3C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		058A68A621EE0B1C0021E3C9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -53,6 +58,15 @@
 		058A68C621EE0B1D0021E3C9 /* CompassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompassUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		058A68CA21EE0B1D0021E3C9 /* CompassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassUITests.swift; sourceTree = "<group>"; };
 		058A68CC21EE0B1D0021E3C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05BABA2821F2317800D9159A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		29E10A27417633BF69C14918 /* Pods-CompassTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompassTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CompassTests/Pods-CompassTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F1D478A8BD4C1FB99B46C99 /* Pods-Compass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Compass.release.xcconfig"; path = "Pods/Target Support Files/Pods-Compass/Pods-Compass.release.xcconfig"; sourceTree = "<group>"; };
+		63867551AF82F2D6F265AE7E /* Pods_Compass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Compass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		688260CD03C5BFE76CB02433 /* Pods_CompassUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CompassUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		931DC62F5DEA326024C4CED0 /* Pods_CompassTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CompassTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2A38A8A8B98A89087468559 /* Pods-CompassTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompassTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CompassTests/Pods-CompassTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB9831D064B8DF45FFDDB05E /* Pods-CompassUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompassUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CompassUITests/Pods-CompassUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFEB8BDD6544FE54D403DA51 /* Pods-Compass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Compass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Compass/Pods-Compass.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBCE6F6A06AF4DDCB89BEE95 /* Pods_Compass.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				407F8899E17A2AB1C1AF5DD6 /* Pods_CompassTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B25EA681EC479A4150E0264F /* Pods_CompassUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +104,8 @@
 				058A68BE21EE0B1D0021E3C9 /* CompassTests */,
 				058A68C921EE0B1D0021E3C9 /* CompassUITests */,
 				058A68A221EE0B1C0021E3C9 /* Products */,
+				228636EEEE4F989F45C55E1E /* Pods */,
+				A1D7EB6AE31EF5000C9AE2E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +128,7 @@
 				058A68AA21EE0B1D0021E3C9 /* GameScene.swift */,
 				058A68AC21EE0B1D0021E3C9 /* GameViewController.swift */,
 				058A68AE21EE0B1D0021E3C9 /* Main.storyboard */,
+				05BABA2821F2317800D9159A /* GoogleService-Info.plist */,
 				058A68B121EE0B1D0021E3C9 /* Assets.xcassets */,
 				058A68B321EE0B1D0021E3C9 /* LaunchScreen.storyboard */,
 				058A68B621EE0B1D0021E3C9 /* Info.plist */,
@@ -134,6 +154,29 @@
 			path = CompassUITests;
 			sourceTree = "<group>";
 		};
+		228636EEEE4F989F45C55E1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFEB8BDD6544FE54D403DA51 /* Pods-Compass.debug.xcconfig */,
+				4F1D478A8BD4C1FB99B46C99 /* Pods-Compass.release.xcconfig */,
+				29E10A27417633BF69C14918 /* Pods-CompassTests.debug.xcconfig */,
+				B2A38A8A8B98A89087468559 /* Pods-CompassTests.release.xcconfig */,
+				EB9831D064B8DF45FFDDB05E /* Pods-CompassUITests.debug.xcconfig */,
+				01B16DDC561911F2C6A7C7C7 /* Pods-CompassUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A1D7EB6AE31EF5000C9AE2E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63867551AF82F2D6F265AE7E /* Pods_Compass.framework */,
+				931DC62F5DEA326024C4CED0 /* Pods_CompassTests.framework */,
+				688260CD03C5BFE76CB02433 /* Pods_CompassUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 058A68CF21EE0B1D0021E3C9 /* Build configuration list for PBXNativeTarget "Compass" */;
 			buildPhases = (
+				E9184EDDAC7E9676A289F7BA /* [CP] Check Pods Manifest.lock */,
 				058A689D21EE0B1C0021E3C9 /* Sources */,
 				058A689E21EE0B1C0021E3C9 /* Frameworks */,
 				058A689F21EE0B1C0021E3C9 /* Resources */,
+				7BC1A95BEE9A6BCAFC4A9FC2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 058A68D221EE0B1D0021E3C9 /* Build configuration list for PBXNativeTarget "CompassTests" */;
 			buildPhases = (
+				8D3DD70E5C1C08DF2823BCD8 /* [CP] Check Pods Manifest.lock */,
 				058A68B721EE0B1D0021E3C9 /* Sources */,
 				058A68B821EE0B1D0021E3C9 /* Frameworks */,
 				058A68B921EE0B1D0021E3C9 /* Resources */,
@@ -176,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 058A68D521EE0B1D0021E3C9 /* Build configuration list for PBXNativeTarget "CompassUITests" */;
 			buildPhases = (
+				E07A9E47A83F838554DF68B1 /* [CP] Check Pods Manifest.lock */,
 				058A68C221EE0B1D0021E3C9 /* Sources */,
 				058A68C321EE0B1D0021E3C9 /* Frameworks */,
 				058A68C421EE0B1D0021E3C9 /* Resources */,
@@ -243,6 +290,7 @@
 				058A68B221EE0B1D0021E3C9 /* Assets.xcassets in Resources */,
 				058A68B521EE0B1D0021E3C9 /* LaunchScreen.storyboard in Resources */,
 				058A68A921EE0B1D0021E3C9 /* Actions.sks in Resources */,
+				05BABA2921F2317800D9159A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +309,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7BC1A95BEE9A6BCAFC4A9FC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Compass/Pods-Compass-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Compass/Pods-Compass-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D3DD70E5C1C08DF2823BCD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CompassTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E07A9E47A83F838554DF68B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CompassUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9184EDDAC7E9676A289F7BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Compass-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		058A689D21EE0B1C0021E3C9 /* Sources */ = {
@@ -442,9 +583,11 @@
 		};
 		058A68D021EE0B1D0021E3C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFEB8BDD6544FE54D403DA51 /* Pods-Compass.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FTHX6V979L;
 				INFOPLIST_FILE = Compass/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,9 +602,11 @@
 		};
 		058A68D121EE0B1D0021E3C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F1D478A8BD4C1FB99B46C99 /* Pods-Compass.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FTHX6V979L;
 				INFOPLIST_FILE = Compass/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -476,6 +621,7 @@
 		};
 		058A68D321EE0B1D0021E3C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29E10A27417633BF69C14918 /* Pods-CompassTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -496,6 +642,7 @@
 		};
 		058A68D421EE0B1D0021E3C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2A38A8A8B98A89087468559 /* Pods-CompassTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +663,7 @@
 		};
 		058A68D621EE0B1D0021E3C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB9831D064B8DF45FFDDB05E /* Pods-CompassUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +683,7 @@
 		};
 		058A68D721EE0B1D0021E3C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01B16DDC561911F2C6A7C7C7 /* Pods-CompassUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

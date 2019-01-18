@@ -9,9 +9,11 @@
 import UIKit
 import SpriteKit
 import GameplayKit
+import GoogleMobileAds
 
 class GameViewController: UIViewController {
-
+    var gScene: GameScene?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -20,7 +22,7 @@ class GameViewController: UIViewController {
             if let scene = SKScene(fileNamed: "GameScene") {
                 // Set the scale mode to scale to fit the window
                 scene.scaleMode = .aspectFill
-                
+                gScene = scene as? GameScene
                 // Present the scene
                 view.presentScene(scene)
             }
@@ -29,6 +31,12 @@ class GameViewController: UIViewController {
             
             view.showsFPS = true
             view.showsNodeCount = true
+            
+            GADMobileAds.configure(withApplicationID: "ca-app-pub-7939230570061599~9431206077")
+            let request = GADRequest()
+            request.testDevices = [ "cc32503ab4a18683230abd1c582e0cac" ];
+            GADRewardBasedVideoAd.sharedInstance().load(request, withAdUnitID: "ca-app-pub-3940256099942544/1712485313")
+
         }
     }
 
@@ -46,5 +54,22 @@ class GameViewController: UIViewController {
 
     override var prefersStatusBarHidden: Bool {
         return true
+    }
+    
+    override func viewWillLayoutSubviews() {
+        NotificationCenter.default.addObserver(self, selector: #selector(self.startViddeoAd), name: NSNotification.Name(rawValue: "showLevelAd"), object: nil)
+    }
+    
+    @objc func startViddeoAd() {
+        print(GADRewardBasedVideoAd.sharedInstance().isReady == true)
+
+        if (GADRewardBasedVideoAd.sharedInstance().isReady == true) {
+            GADRewardBasedVideoAd.sharedInstance().present(fromRootViewController: self)
+            if (gScene != nil) {
+                gScene?.playVideo()
+                print("playing video")
+            }
+        }
+        
     }
 }
